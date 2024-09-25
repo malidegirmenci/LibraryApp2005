@@ -1,0 +1,98 @@
+#Stock and price added
+
+BOOKS = [
+    {
+        'name': 'Harry Potter ve Felsefe Taşı',
+        'author': 'J. K. Rowling',
+        'releaseDate': '07.10.2023',
+        'genre': ['Fantastik', 'Gizem'],
+        'subject':
+        'HARRY POTTER sıradan bir çocuk olduğunu sanırken, bir baykuşun getirdiği mektupla yaşamı değişir: Başvurmadığı halde Hogwarts Cadılık ve Büyücülük Okulu’na kabul edilmiştir. Burada birbirinden ilginç dersler alır, iki arkadaşıyla birlikte maceradan maceraya koşar. Yaşayarak öğrendikleri sayesinde küçük yaşta becerikli bir büyücü olup çıkar',
+        'ISBN': '9789750802942',
+        'publishingHouse': 'Yapı Kredi Yayınları',
+        'pages': 274,
+        'ratings': 4.47,
+        'rarity': 'Normal',
+        'borrowingStatusOfTheBook': True,
+        'purchaseStatusOfTheBook': True,
+        'robustnessStatus': 'Good',
+        'stock': 5,
+        'price': 150,
+        'users': []
+    },
+    {
+        'name': 'Harry Potter ve Sırlar Odası',
+        'author': 'J. K. Rowling',
+        'releaseDate': '29.08.2019',
+        'genre': ['Fantastik', 'Macera'],
+        'subject':
+        'Dursley’ler o yaz öylesine çekilmez olmuşlardır ki, Harry bir an önce okulu Hogwarts’a geri dönmek için can atmaktadır. Eşyalarını toplarken ortaya çıkan ev cini Dobby ise onu uyarır: Hogwarts’a dönerse, bir felaket olacaktır. Olur da: Sırlar Odası’nın açılmasıyla ortaya çıkan karanlık bir güç, Hogwarts’takileri taşa çevirmeye başlar.',
+        'ISBN': '9789750802959',
+        'publishingHouse': 'Yapı Kredi Yayınları',
+        'pages': 314,
+        'ratings': 4.43,
+        'rarity': 'Normal',
+        'borrowingStatusOfTheBook': True,
+        'purchaseStatusOfTheBook': True,
+        'robustnessStatus': 'Good',
+        'stock': 5,
+        'price': 120,
+        'users': []
+    },
+    {
+        'name': "Kongo'ya Ağıt",
+        'author': 'J. C. Grange',
+        'releaseDate': '23.06.2017',
+        'genre': ['Polisiye', 'Gerilim'],
+        'subject':
+        "Bütün yollar cehenneme çıkıyor…  Afrika'da, Floransa'da, Paris'te… Düşman aynı: Çivi Adam! İblisle son düello başlıyor!..",
+        'ISBN': '9786050944525',
+        'publishingHouse': 'Doğan Kitap Yayınları',
+        'pages': 608,
+        'ratings': 4.6,
+        'rarity': 'Normal',
+        'borrowingStatusOfTheBook': True,
+        'purchaseStatusOfTheBook': True,
+        'robustnessStatus': 'Good',
+        'stock': 5,
+        'price': 175,
+        'users': []
+    },
+    {
+        'name': "Kızıl Karma",
+        'author': 'J. C. Grange',
+        'releaseDate': '21.02.2024',
+        'genre': ['Polisiye', 'Korku'],
+        'subject':
+        "Mayıs 1968’de Paris adeta yangın yeriyken, genç bir kadının bir yoga pozisyonunda, çıplak ve parçalanmış cesedi bulunur. Polis Jean-Louis Mersch, cinayeti soruşturmaya başlar. Maktulün arkadaşları Hervé ile Nicole de ona yardımcı olurlar. Bir başka kadın arkadaşları daha cinayete kurban gittiğinde, ölümün kendi çevrelerinde kol gezdiğini düşünmeye başlarlar.",
+        'ISBN': '9786256666061',
+        'publishingHouse': 'Doğan Kitap Yayınları',
+        'pages': 584,
+        'ratings': 3.6,
+        'rarity': 'Sıradan',
+        'borrowingStatusOfTheBook': True,
+        'purchaseStatusOfTheBook': True,
+        'robustnessStatus': 'Good',
+        'stock': 6,
+        'price': 95,
+        'users': []
+    },
+    {
+        'name': "Rubaiyat-ı Ömer Hayyam",
+        'author': 'İsmet Nadir Atasoy',
+        'releaseDate': '25.08.2011',
+        'genre': ['Roman','Rubai'],
+        'subject': "Ömer Hayyam'ın hayatına ait ve muhakkak olarak bilinen şudur ki, Melik Şah tarafından 1074 yılında diğer yedi rasat ile beraber Takvim-i Celali'yi tanzim etmekle görevlendirilmiştir. Bağdat Rasathanesi Müdürlüğüne de getirilen Ömer Hayyam orada Ziyc-i Melik Şah denilen rasat cetvelinin de mucidi olarak tarihteki yerini almıştır.",
+        'ISBN': '9786256666061',
+        'publishingHouse': 'Alter Yayıncılık',
+        'pages': 412,
+        'ratings': 4.8,
+        'rarity': 'Nadir',
+        'borrowingStatusOfTheBook': True,
+        'purchaseStatusOfTheBook': False,
+        'robustnessStatus': 'Good',
+        'stock': 1,
+        'price': 295,
+        'users': []
+    },
+]
